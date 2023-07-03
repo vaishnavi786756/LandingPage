@@ -1,0 +1,92 @@
+body,h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    font-family:  Comic Sans MS, Adobe Poetica, Sanvito, and Zapf-Chancery;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color:#f05b8a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+header ul {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+
+
+/* Features section styles */
+.features {
+    padding: 4rem 0;
+    text-align: center;
+   background: url(https://images.unsplash.com/photo-1614850523060-8da1d56ae167?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    color: #f9004d;
+    margin-bottom: 1rem;
+}
+
+.feature-item {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.feature-item img {
+    max-width: 100px;
+    height: auto;
+}
+
+.feature-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.feature-item p {
+    font-size: 1.2rem;
+    color: #232222;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
